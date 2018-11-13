@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.clock {
+  background: -webkit-radial-gradient(#002c2e, #005a5e);
+  background: -o-radial-gradient(#002c2e, #005a5e);
+  background: radial-gradient(#002c2e, #005a5e);
+  height: 100vh;
+  width: 100vw;
+  position: relative; }
+  .clock h1 {
+    position: absolute;
+    left: 38%;
+    top: 37%;
+    font-family: 'Orbitron';
+    color: white;
+    font-size: 8vw;
+    -webkit-animation-name: disapear;
+    animation-name: disapear;
+    -webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; }
+  .clock span {
+    color: white;
+    font-size: 8vw;
+    font-family: 'Orbitron'; }
+  .clock #h {
+    position: absolute;
+    left: 28%;
+    top: 37%; }
+  .clock #m {
+    position: absolute;
+    left: 43%;
+    top: 37%; }
+  .clock #s {
+    position: absolute;
+    left: 59.5%;
+    top: 37%; }
+
+@-webkit-keyframes disapear {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@keyframes disapear {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }

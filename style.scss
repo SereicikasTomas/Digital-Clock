@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clock {
+    background: radial-gradient(rgb(0, 44, 46), rgb(0, 90, 94));
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    h1 {
+        position: absolute;
+        left: 38%;
+        top: 37%;
+        font-family: 'Orbitron';
+        color: white;
+        font-size: 8vw;
+        animation-name: disapear;
+        animation-duration: 1.2s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+    }
+    span{
+        color: white;
+        font-size: 8vw;
+        font-family: 'Orbitron';
+    }
+    #h {
+        position: absolute;
+        left: 28%;
+        top: 37%;
+    }
+    #m {
+        position: absolute;
+        left: 43%;
+        top: 37%;
+    }
+    #s {
+        position: absolute;
+        left: 59.5%;
+        top: 37%;
+    }
+}
+
+@keyframes disapear {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
