@@ -7,19 +7,19 @@
 }
 
 .clock {
-    background: radial-gradient(rgb(0, 44, 46), rgb(0, 90, 94));
+    background: radial-gradient(rgb(0, 0, 0), rgb(0, 90, 94));
     height: 100vh;
     width: 100vw;
     position: relative;
     h1 {
         position: absolute;
         left: 38%;
-        top: 37%;
+        top: 38%;
         font-family: 'Orbitron';
         color: white;
         font-size: 8vw;
         animation-name: disappear;
-        animation-duration: 1.2s;
+        animation-duration: 1.1s;
         animation-timing-function: linear;
         animation-fill-mode: forwards;
     }
@@ -31,17 +31,17 @@
     #h {
         position: absolute;
         left: 28%;
-        top: 37%;
+        top: 38%;
     }
     #m {
         position: absolute;
         left: 43%;
-        top: 37%;
+        top: 38%;
     }
     #s {
         position: absolute;
         left: 59.5%;
-        top: 37%;
+        top: 38%;
     }
 }
 
