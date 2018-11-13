@@ -18,7 +18,7 @@
         font-family: 'Orbitron';
         color: white;
         font-size: 8vw;
-        animation-name: disapear;
+        animation-name: disappear;
         animation-duration: 1.2s;
         animation-timing-function: linear;
         animation-fill-mode: forwards;
@@ -45,7 +45,9 @@
     }
 }
 
-@keyframes disapear {
+// Make words disappear
+
+@keyframes disappear {
     0% {
         opacity: 1;
     }
